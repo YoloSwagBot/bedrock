@@ -1,0 +1,71 @@
+
+
+    <!-- Standards -->
+    <color name="trans">#00000000</color>
+    <color name="trans_black_10">#1F000000</color>
+    <color name="trans_black_50">#88000000</color>
+    <color name="trans_black_90">#DD000000</color>
+    <color name="trans_bluegray_200">#44B0BEC5</color>
+    <color name="trans_bluegray_500">#88607D8B</color>
+    <color name="trans_bluegray_700">#88455A64</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Green Colors -->
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_100">#C8E6C9</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_300">#81C784</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#388E3C</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
+
+    <!-- Blue Grey Colors -->
+    <color name="bluegray_50">#ECEFF1</color>
+    <color name="bluegray_100">#CFD8DC</color>
+    <color name="bluegray_200">#B0BEC5</color>
+    <color name="bluegray_300">#90A4AE</color>
+    <color name="bluegray_500">#607D8B</color>
+    <color name="bluegray_600">#546E7A</color>
+    <color name="bluegray_700">#455A64</color>
+    <color name="bluegray_800">#37474F</color>
+    <color name="bluegray_900">#263238</color>
+
+    <!-- Cyan Colors -->
+    <color name="cyan_50">#E0F7FA</color>
+    <color name="cyan_100">#b2ebf2</color>
+    <color name="cyan_200">#80DEEA</color>
+    <color name="cyan_300">#4DD0E1</color>
+    <color name="cyan_400">#26C6DA</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="cyan_600">#00ACC1</color>
+    <color name="cyan_700">#0097A7</color>
+    <color name="cyan_800">#00838F</color>
+    <color name="cyan_900">#006064</color>
+    <color name="cyan_A100">#84FFFF</color>
+    <color name="cyan_A200">#18FFFF</color>
+    <color name="cyan_A400">#00E5FF</color>
+    <color name="cyan_A700">#00B8D4</color>
+
+    <!-- Teal Colors -->
+    <color name="teal_800">#00695C</color>
+
+    <!-- Red Colors -->
+    <color name="red_50">#FFEBEE</color>
+    <color name="red_100">#FFCDD2</color>
+    <color name="red_200">#EF9A9A</color>
+    <color name="red_300">#E57373</color>
+    <color name="red_400">#EF5350</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_600">#E53935</color>
+    <color name="red_700">#D32F2F</color>
+    <color name="red_800">#C62828</color>
+    <color name="red_900">#B71C1C</color>
+    <color name="red_A100">#FF8A80</color>
+    <color name="red_A200">#FF5252</color>
+    <color name="red_A400">#FF1744</color>
+    <color name="red_A700">#D50000</color>
+
