@@ -1,5 +1,9 @@
 package com.appstr.ftp.pattern
 
+// ie:
+// class Network(appliContext: Application) {
+//    companion object : SingletonHolder<Network, Application>(::Network){
+
 open class SingletonHolder<out T: Any, in A>(creator: (A) -> T) {
     private var creator: ((A) -> T)? = creator
     @Volatile private var instance: T? = null

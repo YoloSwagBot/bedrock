@@ -1,4 +1,8 @@
 
+buildFeatures{
+    dataBinding = true
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 

@@ -1,0 +1,73 @@
+
+// ================================================================================================= RecyclerView
+
+@BindingAdapter("adapter")
+fun setAdapter(recycler: RecyclerView, adapter: RecyclerView.Adapter<RecyclerView.ViewHolder>){
+    recycler.adapter = adapter
+}
+
+@BindingAdapter("canScrollVertically")
+fun setCanScrollVertically(recycler: RecyclerView, canScroll: Boolean = true){
+    (recycler.layoutManager as FTPLinearLayoutManager).setVerticalScrollEnabled(canScroll)
+}
+
+@BindingAdapter("canScrollHorizontally")
+fun setCanScrollHorizontally(recycler: RecyclerView, canScroll: Boolean = true){
+    (recycler.layoutManager as FTPLinearLayoutManager).setHorizontalScrollEnabled(canScroll)
+}
+
+@BindingAdapter("onScrollListener")
+fun setOnScrollListener(recycler: RecyclerView, listener: RecyclerView.OnScrollListener){
+    recycler.clearOnScrollListeners()
+    recycler.addOnScrollListener(listener)
+}
+
+// ================================================================================================= SwipeRefreshLayout
+
+@BindingAdapter("isRequesting")
+fun setIsRefreshing(str: SwipeRefreshLayout, bool: Boolean){
+    str.isRefreshing = bool
+}
+
+@BindingAdapter("onRefreshListener")
+fun setOnRefreshListener(str: SwipeRefreshLayout, listener: SwipeRefreshLayout.OnRefreshListener){
+    str.setOnRefreshListener(listener)
+}
+
+@BindingAdapter("progressBackgroundColorSchemeColor")
+fun setProgressBackgroundColorSchemeColor(str: SwipeRefreshLayout, colorId: Int){
+    str.setProgressBackgroundColorSchemeColor(str.resources.getColor(colorId, null))
+}
+
+@BindingAdapter("slingshotDistance")
+fun setSlingshotDistance(str: SwipeRefreshLayout, @Px slingshotDistance: Int){
+    str.setSlingshotDistance(slingshotDistance)
+}
+
+@BindingAdapter("distanceToTriggerSync")
+fun setDistanceToTriggerSync(str: SwipeRefreshLayout, distanceInDips: Int){
+    str.setDistanceToTriggerSync(distanceInDips)
+}
+
+@BindingAdapter("setProgressViewOffsetScale", "setProgressViewOffsetStart", "setProgressViewOffsetEnd")
+fun setProgressViewOffset(str: SwipeRefreshLayout, scale: Boolean, start: Int, end: Int){
+    str.setProgressViewOffset(scale, start, end)
+}
+
+// hacky solution, in future do a when statement that points to diff color schemes, with 0 = noScheme
+@BindingAdapter("customColors")
+fun setCustomColors(srLayout: SwipeRefreshLayout, setColors: Boolean = false){
+    if (!setColors) return
+    srLayout.let { str ->
+        str.resources.let { res ->
+            str.setColorSchemeColors(
+                res.getColor(R.color.bluegray_900, null),
+                res.getColor(R.color.red_500, null),
+                res.getColor(R.color.bluegray_700, null),
+                res.getColor(R.color.red_700, null),
+                res.getColor(R.color.bluegray_500, null)
+            )
+        }
+    }
+}
+
