@@ -1,0 +1,16 @@
+
+class PreviewConverter {
+
+    @TypeConverter
+    fun toPreview(value: String?): Preview? {
+        val listType: Type = object : TypeToken<Preview?>() {}.type
+        return Gson().fromJson(value, listType)
+    }
+
+    @TypeConverter
+    fun fromPreview(preview: Preview?): String {
+        val gson = Gson()
+        return gson.toJson(preview)
+    }
+
+}

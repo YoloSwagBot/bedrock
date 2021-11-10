@@ -1,0 +1,30 @@
+
+class ArrayListRedditPostsConverter {
+
+    @TypeConverter
+    fun stringToList(value: String): ArrayList<RedditPost>? {
+        return Gson().fromJson(value, (object : TypeToken<ArrayList<RedditPost>?>() {}.type))
+    }
+
+    @TypeConverter
+    fun redditPostsToString(list: ArrayList<RedditPost>?): String {
+        return Gson().toJson(list)
+    }
+
+}
+
+/**
+class ListImagesConverter {
+
+    @TypeConverter
+    fun stringToList(value: String): List<Images> {
+        return Gson().fromJson(value, (object : TypeToken<List<Images>>() {}.type))
+    }
+
+    @TypeConverter
+    fun imagesToString(list: List<Images>): String {
+        return Gson().toJson(list)
+    }
+
+}
+**/

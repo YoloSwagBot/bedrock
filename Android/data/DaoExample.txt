@@ -1,0 +1,21 @@
+
+@Dao
+interface FTPPostDao {
+
+
+    @Query("SELECT * FROM reddit_posts")
+    fun getAllPosts(): LiveData<List<RedditPost>>
+
+    @Query("SELECT * FROM reddit_posts WHERE feedType == :feedTypeRepoName ORDER BY created")
+    fun getPostsByFeedType(feedTypeRepoName: String): LiveData<List<RedditPost>>
+
+
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertPost(entry: RedditPost)
+
+    @Query("DELETE FROM reddit_posts WHERE feedType == :feedTypeRepoName")
+    suspend fun deleteAllFrom(feedTypeRepoName: String)
+
+
+}
