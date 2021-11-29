@@ -1,5 +1,8 @@
 
 
+    <!-- App-Specific -->
+
+
     <!-- Standards -->
     <color name="trans">#00000000</color>
     <color name="trans_black_10">#1F000000</color>
@@ -10,6 +13,50 @@
     <color name="trans_bluegray_700">#88455A64</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+
+    <!-- Gray Colors -->
+    <color name="gray_50">#FFEBEE</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+
+    <!-- Red Colors -->
+    <color name="red_50">#FFEBEE</color>
+    <color name="red_100">#FFCDD2</color>
+    <color name="red_200">#EF9A9A</color>
+    <color name="red_300">#E57373</color>
+    <color name="red_400">#EF5350</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_600">#E53935</color>
+    <color name="red_700">#D32F2F</color>
+    <color name="red_800">#C62828</color>
+    <color name="red_900">#B71C1C</color>
+    <color name="red_A100">#FF8A80</color>
+    <color name="red_A200">#FF5252</color>
+    <color name="red_A400">#FF1744</color>
+    <color name="red_A700">#D50000</color>
+
+    <!-- Indigo Colors -->
+    <color name="indigo_50">#e8eaf6</color>
+    <color name="indigo_100">#c5cae9</color>
+    <color name="indigo_200">#9fa8da</color>
+    <color name="indigo_300">#7986cb</color>
+    <color name="indigo_400">#5c6bc0</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_600">#3949ab</color>
+    <color name="indigo_700">#303f9f</color>
+    <color name="indigo_800">#283593</color>
+    <color name="indigo_900">#1a237e</color>
+    <color name="indigo_A100">#8c9eff</color>
+    <color name="indigo_A200">#536dfe</color>
+    <color name="indigo_A400">#3d5afe</color>
+    <color name="indigo_A700">#304ffe</color>
 
     <!-- Green Colors -->
     <color name="green_50">#E8F5E9</color>
@@ -22,8 +69,13 @@
     <color name="green_700">#388E3C</color>
     <color name="green_800">#2E7D32</color>
     <color name="green_900">#1B5E20</color>
+    <color name="green_A100">#b9f6ca</color>
+    <color name="green_A200">#69f0ae</color>
+    <color name="green_A400">#00e676</color>
+    <color name="green_A700">#00c853</color>
 
     <!-- Blue Grey Colors -->
+    <color name="bluegray_50_trans_75">#44ECEFF1</color>
     <color name="bluegray_50">#ECEFF1</color>
     <color name="bluegray_100">#CFD8DC</color>
     <color name="bluegray_200">#B0BEC5</color>
@@ -51,21 +103,49 @@
     <color name="cyan_A700">#00B8D4</color>
 
     <!-- Teal Colors -->
+    <color name="teal_50">#e0f2f1</color>
+    <color name="teal_100">#b2dfdb</color>
+    <color name="teal_200">#80cbc4</color>
+    <color name="teal_300">#4db6ac</color>
+    <color name="teal_400">#26a69a</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_600">#00897b</color>
+    <color name="teal_700">#00796b</color>
     <color name="teal_800">#00695C</color>
+    <color name="teal_900">#004d40</color>
+    <color name="teal_A100">#a7ffeb</color>
+    <color name="teal_A200">#64ffda</color>
+    <color name="teal_A400">#1de9b6</color>
+    <color name="teal_A700">#00bfa5</color>
 
-    <!-- Red Colors -->
-    <color name="red_50">#FFEBEE</color>
-    <color name="red_100">#FFCDD2</color>
-    <color name="red_200">#EF9A9A</color>
-    <color name="red_300">#E57373</color>
-    <color name="red_400">#EF5350</color>
-    <color name="red_500">#F44336</color>
-    <color name="red_600">#E53935</color>
-    <color name="red_700">#D32F2F</color>
-    <color name="red_800">#C62828</color>
-    <color name="red_900">#B71C1C</color>
-    <color name="red_A100">#FF8A80</color>
-    <color name="red_A200">#FF5252</color>
-    <color name="red_A400">#FF1744</color>
-    <color name="red_A700">#D50000</color>
+    <!-- Yellow Colors -->
+    <color name="yellow_50">#fffde7</color>
+    <color name="yellow_100">#fff9c4</color>
+    <color name="yellow_200">#fff59d</color>
+    <color name="yellow_300">#fff176</color>
+    <color name="yellow_400">#ffee58</color>
+    <color name="yellow_500">#ffeb3b</color>
+    <color name="yellow_600">#fdd835</color>
+    <color name="yellow_700">#fbc02d</color>
+    <color name="yellow_800">#f9a825</color>
+    <color name="yellow_900">#f57f17</color>
+    <color name="yellow_A100">#ffff8d</color>
+    <color name="yellow_A200">#ffff00</color>
+    <color name="yellow_A400">#ffea00</color>
+    <color name="yellow_A700">#ffd600</color>
 
+    <!-- Amber Colors -->
+    <color name="amber_50">#fff3e0</color>
+    <color name="amber_100">#ffe0b2</color>
+    <color name="amber_200">#ffcc80</color>
+    <color name="amber_300">#ffb74d</color>
+    <color name="amber_400">#ffa726</color>
+    <color name="amber_500">#ff9800</color>
+    <color name="amber_600">#fb8c00</color>
+    <color name="amber_700">#f57c00</color>
+    <color name="amber_800">#ef6c00</color>
+    <color name="amber_900">#e65100</color>
+    <color name="amber_A100">#ffd180</color>
+    <color name="amber_A200">#ffab40</color>
+    <color name="amber_A400">#ff9100</color>
+    <color name="amber_A700">#ff6d00</color>
