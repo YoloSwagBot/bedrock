@@ -1,0 +1,36 @@
+Privacy Policy - Geo Alarm (App Str LLC)
+
+Introduction
+
+Our privacy policy (the “Privacy Policy”) explains the information we collect, how we use it, how it is stored, and your rights in the related mobile applications and services (collectively, the “Services”).
+
+Questions or comments about this Privacy Policy may be submitted by mail or email.
+
+App Str LLC, Geo Alarm
+621 Richmond Avenue
+Oxnard, CA, 93030, USA
+cbath.appstr@gmail.com
+
+
+Location Information
+-We collect and process location information when you use our application or Services. We do not track your device location while you are not using the Services. But in order to use our core features or Services (e.g., Location tracking to trigger an alarm in/out of an area/fence), it is necessary for you to permit us to track your device location while you use the Services. If you would like to stop the device location tracking, you may do so at any time by adjusting your device settings or similar in-app.
+
+How Geo Alarm Uses Location Information
+- Geo Alarm does NOT access your Location Information outside of the application or Services.
+- Geo Alarm does NOT collect your Location Information outside of the application or Services.
+- Geo Alarm does NOT use your Location Information outside of the application or Services.
+- Geo Alarm does NOT share your Location Information outside of the application or Services.
+- Geo Alarm does NOT store, maintain, or operate off of any Location Information outside of the application or Services.
+- Geo Alarm does NOT sell your Location Information or personal information for monetary value.
+Geo Alarm uses the information we collect and receives as described below:
+-To provide the Services. We use the information we collect and receive to provide the Services, including providing you with the ability to:
+--Record your location and calculate if you have entered a pre-defined area or fence that you have created.
+--Subject to your privacy controls, your location-information belongs to Geo Alarm and/or App Str LLC while using the application or Services.
+--Your Location Information is only used in application or Services. Your Location Information is NOT used outside of application or Services, nor it is stored, saved, kept, or similar outside of the application or Services.
+
+
+Privacy Policy Updates
+Geo Alarm reserves the right to modify this Privacy Policy at any time. Please review it occasionally. If Geo Alarm makes changes to this Privacy Policy, the updated Privacy Policy will be posted in a timely manner. If we make changes we deem to be material, we will provide a prominent notice. If you object to any changes to this Privacy Policy, you should stop using the Services or application.
+
+
+
